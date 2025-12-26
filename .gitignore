@@ -1,0 +1,69 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Virtual Environment
+pip-delete-this-directory.txt
+pip-wheel-metadata/
+
+# Streamlit
+.streamlit/
+streamlit_config.toml
+secrets.toml
+
+# Logs
+logs/
+*.log
+
+# Jupyter/IPython
+.ipynb_checkpoints
+*.ipynb
+
+# IDE/Editor
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# OS Files
+.DS_Store
+Thumbs.db
+
+# Model files (optional – remove these lines if you WANT to commit models)
+models/
+*.p
+*.pickle
+*.pkl
+*.joblib
+*.h5
+*.keras
+
+# Data (usually too large)
+data/
+dataset/
+*.csv
+*.json
+*.zip
+*.tar.gz
+
+# Build/Deployment
+build/
+dist/
+*.egg-info/
+.coverage
+htmlcov/
+
+# Temporary
+*.tmp
+*.bak
+*.swp
+*~
